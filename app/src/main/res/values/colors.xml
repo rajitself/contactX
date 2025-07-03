@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>           <!-- Black -->
+    <color name="colorOnPrimary">#FFFFFF</color>         <!-- White -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorOnBackground">#000000</color> <!-- Black -->
+
+
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color><!-- Text on light background -->
+</resources>

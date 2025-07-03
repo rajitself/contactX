@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:textColor="?android:textColorPrimary"
+    android:background="?android:colorBackground">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Contact"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="?android:textColorPrimary"/>
+
+    <!-- Input section -->
+    <LinearLayout
+        android:id="@+id/inputFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/dialogTitle"
+        android:textColor="?android:textColorPrimary">
+
+        <!-- Name Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"/>
+
+        <!-- Name Input -->
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:textColor="?android:textColorPrimary"/>
+
+        <!-- Phone Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"/>
+
+        <!-- Phone Input -->
+        <EditText
+            android:id="@+id/edtNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number"
+            android:inputType="phone"
+            android:textColor="?android:textColorPrimary"/>
+    </LinearLayout>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="#09433C"
+        android:layout_below="@id/inputFields"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"/>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDeleteContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:backgroundTint="#B00020"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/inputFields"
+        android:layout_toStartOf="@id/btnSaveContact"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

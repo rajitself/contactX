@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Mark11" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#000000</item> <!-- black -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- white -->
+        <item name="android:colorBackground">#FFFFFF</item> <!-- white background -->
+        <item name="colorOnBackground">#000000</item> <!-- black text -->
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Mark11" parent="Base.Theme.Mark11" />
+</resources>

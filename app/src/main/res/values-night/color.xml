@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night Mode Colors: Black background, white text -->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorOnPrimary">#000000</color>
+
+    <color name="colorBackground">#000000</color> <!-- Black -->
+    <color name="colorOnBackground">#FFFFFF</color> <!-- White -->
+
+
+    <color name="colorSurface">#000000</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+</resources>
