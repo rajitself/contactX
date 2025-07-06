@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId = "com.example.mark11"
-        minSdk = 23
+        minSdk = 28
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,6 +35,7 @@ dependencies {
 
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation(libs.car.ui.lib)
     annotationProcessor("androidx.room:room-compiler:2.6.1")
     implementation(libs.appcompat)
     implementation(libs.material)
